@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Love Page 💖</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .heart {
+      font-size: 80px;
+      animation: beat 1s infinite alternate;
+    }
+
+    @keyframes beat {
+      from { transform: scale(1); }
+      to { transform: scale(1.2); }
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin: 10px 0;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.6em;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+
+    .footer {
+      margin-top: auto;
+      font-size: 1em;
+      color: #ffe9eb;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2em; }
+      .heart { font-size: 60px; }
+      p { font-size: 1em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="heart">❤️</div>
+  <h1>To: Someone Special</h1>
+  <p>
+    No matter where you are or what you're doing,<br>
+    this message is for you.<br><br>
+    You are valued. You are appreciated. You are loved.<br>
+    From the bottom of my heart — always. 💖
+  </p>
+  <div class="footer">— From Me</div>
+</body>
+</html>
